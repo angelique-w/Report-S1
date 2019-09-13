@@ -102,3 +102,28 @@ Sources :
 
 * [Open classrooms : rédiger en markdown](https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown)
 
+
+
+
+
+Les outils:
+
+
+GitHub: est un site web participatif utilisé pour échanger de données entre développeur 
+
+Git: est un utilitaire pour l’organisation des données depuis le terminal (shell) 
+
+visual studio code, sublime texte ainsi que notepad++ sont des éditeurs de texte, 
+
+Curl: est un logiciel qui permet de récupérer le contenu d’une ressource informatique et de les collecter.
+
+nvm: est un utilitaire du terminal qui sert a maintenir les paquets a jour.
+
+php: est langage de programmation libre , principalement utilisé  pour produire des pages web dynamique via un serveur http. le serveur fait un interpretation du langage php pour le traduire en html.
+
+Sur Mac l’installation de Homebrew pour permettre l’installations de paquets 
+
+
+
+
+
