@@ -246,15 +246,50 @@ Le terminal est une interface de commande permettant tous types de fonctionnalit
 Pour résumer, le terminal permet d'effectuer directement et rapidemenet toutes les commandes de l'interface graphique à partir d'une seule et même fenêtre en ayant la bonne connaissances des commandes.
 
 
+# Git
 
-                        
+## Qu’est-ce que Git ?
+
+Git est un système de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvald, auteur du noyau Linux. C'est aujourd'hui le logiciel de gestion de versions le plus populaire.
+
+Objectifs :
+* travailler à plusieurs sur le même code
+* historiser le code 
+* gérer les versions
+
+##  Comment cela fonctionne ?
+
+Installation via le terminal ( sous Ubuntu : sudo apt install git ; pour les autres OS, cf. https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
 
 
+## Paramétrage de Git
 
+Git propose 3 niveaux de configuration :
+*1. Locale. Spécifique à chaque dépôt local, elle est stockée dans le .git/config. On y trouve notamment les trackings de branches, le remote, etc. 
+*2. Globale. Spécifique à l'utilisateur, elle est stockée à la racine de son compte, dans le fichier ~/.gitconfig. C'est celle qui nous intéresse ici. 
+*3. Système. Généralement stockée dans /etc/gitconfig, elle est partagée par tous les utilisateurs. Elle est rarement employée. 
+Git a OBLIGATOIREMENT besoin de 2 paramètres pour fonctionner qui correspondent à notre identité, notre NOM et notre EMAIL (qui doivent être les mêmes que ceux de notre compte GitHub créé en ligne). Ces données seront utilisées pour chaque commit que l’on fera (=enregistrement / modification). 
 
+*Il est possible de paramétrer d’autres choses (personnalisation) comme l’éditeur de texte utilisé par Git (par défaut nous avons nano sur Ubuntu) ; l’outil utilisé pour résoudre les conflits de fusion ; l’affichage de couleurs ; des aliases (sortes de raccourcis clavier pour donner une commande, ex : ci pour commit) ; la pagination ; les whitespaces ; etc.
+Ces configurations se font via le terminal de commande.
+Il est possible de customiser le terminlal et son PS1 à travers le ficher bashrc.*
 
+## Commandes
 
+Les commandes de Git sont directement liées à celles du terminal. 
+Voici les commandes que nous avons pu découvrir durant les quêtes :
+* init : initialise le répoertoire comme projet Git
+* add : ajoute un fichier qui sera suivi par Git
+* commit : enregistre l'index (liste des fichiers trackés) vers un nouveau commit, avec un commentaire sur les modifications effectuées
+* status : donne l'état du suivi des fichiers ainsi que les fichiers ayant des différences de version
+* branch : lister, créer ou supprimer une branche
+* checkout : se déplacer entre les branches
 
+## Utiliser Git avec un repository distant
 
+Il faut câbler et paramétrer le repository distant (qui se situe sur notre GitHub) avec notre repository local (qui se situe dans notre machine) afin de les lier.
 
+2 commandes :
+* push : envoyer vers le repository distant
+* pull : récupérer depuis le repository distant
 
