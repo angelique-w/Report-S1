@@ -121,7 +121,18 @@ nvm: est un utilitaire du terminal qui sert a maintenir les paquets a jour.
 
 php: est langage de programmation libre , principalement utilisé  pour produire des pages web dynamique via un serveur http. le serveur fait un interpretation du langage php pour le traduire en html.
 
-Sur Mac l’installation de Homebrew pour permettre l’installations de paquets 
+Sur Mac l’installation de Homebrew pour permettre l’installations de paquets.
+
+
+Métier dde développeur et veille:
+
+ Nous avons appris ce qu'est le métier de développeur et ses différentes facettes:
+UX/UI, Front-End, Back-End et DévOps.
+
+Grâce au Daily Stand-Up, nous pratiquons la méthode agile (nous faisons un point sur ce qu'on a fait, nos objectifs et connaitre l'avancée des autres).
+
+Comme les technologies changent rapidement, tout développeur doit faire sa veille. Il y a plusieurs façons: aller sur des sites  tels que dev.to, css weekly... ainsi que sur des sites ressources tels que css tricks ou MDN, mais également sur des forums de communautés de développeurs comme slack ou rocket.
+
 
 
 
