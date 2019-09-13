@@ -133,6 +133,126 @@ Grâce au Daily Stand-Up, nous pratiquons la méthode agile (nous faisons un poi
 
 Comme les technologies changent rapidement, tout développeur doit faire sa veille. Il y a plusieurs façons: aller sur des sites  tels que dev.to, css weekly... ainsi que sur des sites ressources tels que css tricks ou MDN, mais également sur des forums de communautés de développeurs comme slack ou rocket.
 
+TERMINAL WEEK ONE
+==================
+
+1. ouverture du terminal (ctrl+alt+t (linux)/ command+space+t (Mac))
+      
+      ===>  programmes telechargés:x
+              - sudo apt get/install/update/upgrade... (linux)
+                  |-> sudo = super user
+                  - home brew (mac)
+                  - nvm (node version manager => manager de paquet pour node.js)
+                  - Git (logiciel de gestion de version decentralisé => permet de collaborer et travailler en commun sur des mêmes projets en même temps. )
+                  - Curl (interface en ligne de commande, destiné à récupérer le contenu d'une ressource accessible par un réseau informatique)
+                  - VsCode (éditeur de texte sous forme graphique)
+                  - SSh Key (système sécurisé permettant de se connecter de façon sécurisée à une machine distante.)
+                  - php 7.3 ( dernière version du langage PHP language back-end de programmation)
+
+2. Utilisation du Terminal 
+
+    a. Naviguer dans les dossiers 
+
+      .se situer dans le terminal avec la commande "pwd"
+
+          pwd / se situer à l'instant dans le terminal
+
+          pwd Renvoyer le chemin absolu du répertoire courant ce qui est utile puisqu’en général le shell n’affiche que le nom du répertoire courant.
+       
+      .Navigation Répertoire avec commande "cd" :
+
+          cd / Permet de se retrouver à la racine du disque.
+
+          cd ~ ou cd Accéder directement au répertoire de l’utilisateur.
+
+          cd /var/www/ Aller dans le répertoire /var/www.
+
+          cd .. Remonter dans le répertoire parent à partir de là où vous êtes.
+
+          cd - Permet de revenir au répertoire précédent.   
+
+          
+      .Afficher contenu avec commande "ls" :
+
+          ls -l Afficher les informations de manière détaillée.
+
+          ls -a Afficher les fichiers cachés.
+
+          ls -h Afficher la taille des fichiers de facon lisible.
+
+          ls -r Tri inversé.
+
+          ls -t Trier les fichiers par date du plus récent au plus ancien.
+
+          ls -S Trier par taille décroissante.
+
+          ls -la Afficher tous les fichiers y compris les fichiers cachés.
+
+          ls -lhS Afficher les informations des fichiers, avec des tailles lisibles le tout ordonné du plus grand au plus petit.
+
+
+      .pour créer des copies avec commande "cp"  
+
+          cp foo/bar.txt baz/ Copier le fichier bar.txt dans le répertoire baz.
+
+          cp -r foo/ baz/ Copier des répertoires entiers (note : si baz existe, la cible sera baz/foo/).
+
+      .Pour déplacer renommer des fichiers avec la commande "mv" :
+
+          mv foo/bar.txt baz/ Déplacer le fichier bar.txt dans le répertoire baz.
+
+          mv foo_bar.txt foo_baz.txt Renommer le fichier foo_bar.txt en foo_baz.txt.
+
+      
+ 
+      .Pour effacer fichier répertoire avec la commande "rm" :
+
+          rm *.txt Supprimer tous les fichiers ayant pour extension txt.
+
+          rm foo.txt bar.txt Supprimer les fichiers foo.txt et bar.txt.
+
+          rm -rf baz/ Supprimer le répertoire baz et tout son contenu.
+
+      . pour créer un répertoir avec la commande "mkdir" :
+
+          mkdir -v Retourner des informations lors de la création d'un répertoire.
+
+          mkdir -p Cette option permet de créer une arborescence complète.
+
+          mkdir foo Créer le répertoire foo.
+
+          mkdir -v foo /tmp/bar Créer les répertoires foo et /tmp/bar.
+
+          mkdir -p foo/bar/baz Créer l’arborescence foo/bar/baz.   
+
+  
+
+Voici la liste des commandes vu cette semaine et pour les curieux voici un lien pour les futurs commandes utiles "http://juliend.github.io/linux-cheatsheet/"
+
+4. Editeur de texte avec le Terminal
+
+Les éditeurs de texte principaux sont "nano", "vim", "emacs".
+
+Nano : un éditeur de texte facile d'utilisation (débutant)
+
+Vim : un éditeur de texte pour les utilisateurs plus confirmés comprenant un environnement de développement complet 
+avec installations de plugins (plus rapide et stable une fois configurer)
+
+Emacs : un éditeur de texte avec un environnement de développement complet.
+
+Conclusion : 
+
+Le terminal est une interface de commande permettant tous types de fonctionnalités (gérer ces fichiers, dossiers, ouvrir des logiciels, avoir accés à des commandes systèmes, écrire directement des languages grâces aux éditeurs de textes .....)
+Pour résumer, le terminal permet d'effectuer directement et rapidemenet toutes les commandes de l'interface graphique à partir d'une seule et même fenêtre en ayant la bonne connaissances des commandes.
+
+
+
+                        
+
+
+
+
+
 
 
 
